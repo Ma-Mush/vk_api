@@ -37,6 +37,7 @@ RE_PHONE_POSTFIX = re.compile(r'phone_postfix">.*?(\d+).*?<')
 DEFAULT_USER_SCOPE = sum(VkUserPermissions)
 
 
+
 class VkApi(object):
     """
     :param login: Логин ВКонтакте (лучше использовать номер телефона для
